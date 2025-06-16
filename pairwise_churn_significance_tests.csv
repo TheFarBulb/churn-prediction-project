@@ -1,0 +1,39 @@
+Feature,Group 1,Group 2,p-value,Result
+SeniorCitizen,0,1,9.477903507376036e-37,Significant
+Partner,1,0,1.519036620099678e-36,Significant
+Dependents,0,1,3.276082809397685e-43,Significant
+PhoneService,0,1,0.3162461315739531,Not Significant
+MultipleLines,No phone service,No,0.9484358072789603,Not Significant
+MultipleLines,No phone service,Yes,0.053160896525909385,Not Significant
+MultipleLines,No,Yes,0.0013422845459112847,Significant
+InternetService,DSL,Fiber optic,1.3520464229927545e-73,Significant
+InternetService,DSL,No,9.986102860352303e-24,Significant
+InternetService,Fiber optic,No,9.804795676936008e-127,Significant
+OnlineSecurity,0.0,1.0,1.2878996264963822e-96,Significant
+OnlineSecurity,0.0,nan,7.899211626788406e-129,Significant
+OnlineSecurity,1.0,nan,2.796258297259976e-11,Significant
+OnlineBackup,1.0,0.0,4.8473534617280667e-48,Significant
+OnlineBackup,1.0,nan,5.412516797225472e-32,Significant
+OnlineBackup,0.0,nan,1.0107053252569444e-115,Significant
+DeviceProtection,0.0,1.0,1.5672416944334633e-39,Significant
+DeviceProtection,0.0,nan,1.9780938623540977e-111,Significant
+DeviceProtection,1.0,nan,2.792814275394142e-35,Significant
+TechSupport,0.0,1.0,2.362359492004681e-92,Significant
+TechSupport,0.0,nan,6.679729254366404e-128,Significant
+TechSupport,1.0,nan,1.2605085610702494e-12,Significant
+StreamingTV,0.0,1.0,0.005914561158935956,Significant
+StreamingTV,0.0,nan,1.127736424350282e-81,Significant
+StreamingTV,1.0,nan,1.0455161243703058e-65,Significant
+StreamingMovies,0.0,1.0,0.002874147738204462,Significant
+StreamingMovies,0.0,nan,2.8236109552528496e-82,Significant
+StreamingMovies,1.0,nan,2.8949502381211023e-65,Significant
+PaperlessBilling,1,0,2.614597423787399e-58,Significant
+PaymentMethod,Electronic check,Mailed check,4.894718799776243e-65,Significant
+PaymentMethod,Electronic check,Bank transfer (automatic),6.609559637951373e-76,Significant
+PaymentMethod,Electronic check,Credit card (automatic),1.4876448439664891e-83,Significant
+PaymentMethod,Mailed check,Bank transfer (automatic),0.07934141843610366,Not Significant
+PaymentMethod,Mailed check,Credit card (automatic),0.00420278499078838,Significant
+PaymentMethod,Bank transfer (automatic),Credit card (automatic),0.2677952056502493,Not Significant
+Contract,Month-to-month,One year,3.5290900230674735e-104,Significant
+Contract,Month-to-month,Two year,3.9324912173831234e-194,Significant
+Contract,One year,Two year,3.792770531121327e-21,Significant
